@@ -22,7 +22,7 @@ class UserSentiment:
         Your answer should be strictly according to the given structure only,i.e a python list of sentiments.
         
         text: {text}
-        answer: 'you response here'
+    
 
         For example 1:
         text: It was very straightforward and the garage was great. Hadn't even known about them before.
