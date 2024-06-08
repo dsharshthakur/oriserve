@@ -22,7 +22,7 @@ class UserSentiment:
         Your answer should be strictly according to the given example structure only.
         Do not follow any other approach otherwise you will be penalized.
         
-        text: {text}
+        text:{text}
     
 
         For example 1:
