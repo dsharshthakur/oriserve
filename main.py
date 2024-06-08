@@ -53,7 +53,13 @@ class UserSentiment:
         text: Great service, they had a supply issue with my original order and so upgraded to the next tyre up without charging the extra cost.
         Also they saw what could be an issue and highlighted it so that i could double check i had the correct order.
         answer: [extra charges positive, no stock negative, advisor/agent service positive]
-        
+
+        Also:
+        this is wrong : 
+        "answer: [ease of use positive, value for money positive, advisor/agent service positive]"
+        this is how the output should be:
+        "[ease of use positive, value for money positive, advisor/agent service positive]"
+      
         
         '''
         # prompt template for the llm - Instruction for the model
