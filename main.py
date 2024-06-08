@@ -51,7 +51,7 @@ class UserSentiment:
         For example 7:
         text: Great service, they had a supply issue with my original order and so upgraded to the next tyre up without charging the extra cost.
         Also they saw what could be an issue and highlighted it so that i could double check i had the correct order.
-        answer: [extra charges positive, no stock negative, advisor/agent service positive]
+        answer should be: [extra charges positive, no stock negative, advisor/agent service positive]
         
         
         '''
