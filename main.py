@@ -17,9 +17,11 @@ class UserSentiment:
 
         template = ''' 
         You are a great AI assistant which can easily perform "subtheme sentiments analysis" from a given  user review. 
-        The text is {text} . Now, Identify all the subtheme sentiments from this text with highest accuracy, and don't 
+        Identify all the subtheme sentiments from this text with highest accuracy, and don't 
         miss any insight from the text also avoid giving irrelevant sentiments in output.
         Your answer should be strictly according to the given below "answer" structure only.
+        text: {text}
+        your answer here: ''
 
         For example 1:
         text: It was very straightforward and the garage was great. Hadn't even known about them before.
@@ -50,6 +52,8 @@ class UserSentiment:
         text: Great service, they had a supply issue with my original order and so upgraded to the next tyre up without charging the extra cost.
         Also they saw what could be an issue and highlighted it so that i could double check i had the correct order.
         answer: [extra charges positive, no stock negative, advisor/agent service positive]
+        
+        
         '''
         # prompt template for the llm - Instruction for the model
         prompt = PromptTemplate(template=template, input_variables=["text"])
