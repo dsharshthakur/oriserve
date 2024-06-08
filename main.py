@@ -18,8 +18,7 @@ class UserSentiment:
         template = ''' 
         You are a great AI assistant which can easily perform "subtheme sentiments analysis" from a given  user review. 
         The text is {text} . Now, Identify all the subtheme sentiments from this text with highest accuracy, and don't 
-        miss any insight also avoid giving irrelevant sentiments.
-         Response should be strictly according to the given structure only.
+        miss any insight also avoid giving irrelevant sentiments. Your response should be strictly according to the given structure only.
         
         Some examples that shows how your output should be:
         
