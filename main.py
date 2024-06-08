@@ -23,7 +23,7 @@ class UserSentiment:
 
         For example 1:
         text: It was very straightforward and the garage was great. Hadn't even known about them before.
-        answer: [garage service positive]
+        answer should be: [garage service positive]
         
         For example 2:
         text: Easy to use, also good price.
