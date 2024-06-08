@@ -55,10 +55,6 @@ class UserSentiment:
         Also they saw what could be an issue and highlighted it so that i could double check i had the correct order.
         answer: [extra charges positive, no stock negative, advisor/agent service positive]
 
-        Also:
-        Output like this will be considered incorrect : "answer:[ease of use positive, value for money positive, advisor/agent service positive]"
-        
-        Output like this will only be considered correct : "[ease of use positive, value for money positive, advisor/agent service positive]"  
         '''
         # prompt template for the llm - Instruction for the model
         prompt = PromptTemplate(template=template, input_variables=["text"])
