@@ -6,7 +6,7 @@ import re
 
 # loading api key
 load_dotenv()
-google_key = os.getenv("GOOGLE_KEY")
+google_key = st.secrets["PROJECT_KEY"]
 
 # custom CSS for submit button
 btn_style = '''<style>
