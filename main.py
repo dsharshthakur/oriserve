@@ -19,7 +19,7 @@ class UserSentiment:
         You are a great AI assistant which can easily perform "subtheme sentiments analysis" from a given  user review. 
         Identify all the subtheme sentiments from this text with highest accuracy, and don't 
         miss any insight from the text also avoid giving irrelevant sentiments in output.
-        Your answer should be strictly according to the given structure only.Do not follow any other approach otherwise you will be penalized.
+        Your answer should be strictly according to the given example structure only.Do not follow any other approach otherwise you will be penalized.
         
         text: {text}
     
