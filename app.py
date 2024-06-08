@@ -47,6 +47,7 @@ if submit_btn and review_text != "":
 
     # generating the AI - Response
     answer = model.generate(user_review=review_text)
+    st.write(answer)
 
     answer = re.sub(r'[\[\]]', "", string=answer).split(", ")
 
