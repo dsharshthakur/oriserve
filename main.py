@@ -56,10 +56,9 @@ class UserSentiment:
         answer: [extra charges positive, no stock negative, advisor/agent service positive]
 
         Also:
-        If you respond like this "answer: [ease of use positive, value for money positive, advisor/agent service positive]"
-        then the output will be considered as wrong as you will be penalized.
+        Output like this considered incorrect : "answer: [ease of use positive, value for money positive, advisor/agent service positive]"
         
-        This is how the correct final output should be "[ease of use positive, value for money positive, advisor/agent service positive]"  
+        Output like this considered correct : "[ease of use positive, value for money positive, advisor/agent service positive]"  
         '''
         # prompt template for the llm - Instruction for the model
         prompt = PromptTemplate(template=template, input_variables=["text"])
