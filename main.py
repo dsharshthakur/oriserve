@@ -56,11 +56,10 @@ class UserSentiment:
         answer: [extra charges positive, no stock negative, advisor/agent service positive]
 
         Also:
-        If you respond like this, then the output will be considered as wrong : 
-        "answer: [ease of use positive, value for money positive, advisor/agent service positive]"
+        If you respond like this "answer: [ease of use positive, value for money positive, advisor/agent service positive]"
+        then the output will be considered as wrong.
         
-        This is how the correct final output should be:
-        "[ease of use positive, value for money positive, advisor/agent service positive]"
+        This is how the correct final output should be "[ease of use positive, value for money positive, advisor/agent service positive]"
       
         
         '''
