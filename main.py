@@ -55,7 +55,7 @@ class UserSentiment:
         answer: [extra charges positive, no stock negative, advisor/agent service positive]
 
         Also:
-        this is wrong : 
+        This output wrong : 
         "answer: [ease of use positive, value for money positive, advisor/agent service positive]"
         this is how the output should be:
         "[ease of use positive, value for money positive, advisor/agent service positive]"
