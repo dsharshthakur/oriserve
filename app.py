@@ -48,6 +48,7 @@ if submit_btn and review_text != "":
     # generating the AI - Response
     answer = model.generate(user_review=review_text)
     answer = re.sub(r'[\[\]]', "", string=answer).split(", ")
+    answer = answer.replace("answer" , "")
 
     # list containing positive response only
     positive_response = [txt for txt in answer if 'positive' in txt]
